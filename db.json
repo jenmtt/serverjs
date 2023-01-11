@@ -1,29 +1,29 @@
 {
     "tatuadores": [
-        {"nome": "Marcelo", "matriculaId": 1, "id": 1, "sala": 1},
-        {"nome": "Renan", "matriculaId": 2, "id": 2, "sala": 2},
-        {"nome": "Diego", "matriculaId": 3, "id": 3, "sala": 3},
-        {"nome": "Stephanie", "matriculaId": 4, "id": 4, "sala": 4}
+        {"nome": "Marcelo", "id": 1,"matriculaId": 1,  "sala": 1},
+        {"nome": "Renan", "id": 2, "matriculaId": 2, "sala": 2},
+        {"nome": "Diego", "id": 3, "matriculaId": 3, "sala": 3},
+        {"nome": "Stephanie", "id": 4, "matriculaId": 4, "sala": 4}
     ],
    
     "clientes":[
-        {"nome": "Jenifer", "cpf": "111.111.111-11", "id": 100, "telefone": "99999-9999"},
-        {"nome": "Julia", "cpf": "111.111.111-22", "id": 100, "telefone": "99999-9988"},
-        {"nome": "João", "cpf": "111.111.111-33", "id": 100, "telefone": "99999-9977"},
-        {"nome": "Jonathan", "cpf": "111.111.111-44", "id": 100, "telefone": "99999-9955"}
+        {"nome": "Jenifer", "id": 100, "cpf": "111.111.111-11", "telefone": "99999-9999"},
+        {"nome": "Julia", "id": 100, "cpf": "111.111.111-22", "telefone": "99999-9988"},
+        {"nome": "João", "id": 100, "cpf": "111.111.111-33", "telefone": "99999-9977"},
+        {"nome": "Jonathan", "id": 100, "cpf": "111.111.111-44", "telefone": "99999-9955"}
     ],
 
     "servicos": [
-        {"nome": "Tatuagem", "tipo":"Modificação corporal ext.", "id":1010, "preçoMin": 100},
-        {"nome": "Piercing", "tipo":"Modificação corporal trans.", "id":2020, "preçoMin": 80},
-        {"nome": "Microdermal", "tipo":"Modificação corporal inter.", "id":3030, "preçoMin": 100},
-        {"nome": "Alargador", "tipo":"Modificação lóbulo", "id":4040, "preçoMin": 80}
+        {"nome": "Tatuagem", "id":1010, "tipo":"Modificação corporal ext.", "preçoMin": 100},
+        {"nome": "Piercing", "id":2020, "tipo":"Modificação corporal trans.", "preçoMin": 80},
+        {"nome": "Microdermal", "id":3030, "tipo":"Modificação corporal inter.", "preçoMin": 100},
+        {"nome": "Alargador", "id":4040, "tipo":"Modificação lóbulo", "preçoMin": 80}
     ],
 
     "material": [
-        {"nome": "Tintas", "tipo":"gerente", "id":10, "valorCap": 1000},
-        {"nome": "Agulhas", "tipo":"recepção", "id":20, "valorCap": 500},
-        {"nome": "Assepsia", "tipo":"segurança", "id":30, "valorCap": 2000},
-        {"nome": "Joias", "tipo":"limpeza", "id":40, "valorCap": 5000}
+        {"nome": "Tintas", "id":10, "tipo":"gerente", "valorCap": 1000},
+        {"nome": "Agulhas", "id":20, "tipo":"recepção", "valorCap": 500},
+        {"nome": "Assepsia", "id":30, "tipo":"segurança", "valorCap": 2000},
+        {"nome": "Joias", "id":40, "tipo":"limpeza", "valorCap": 5000}
     ]
 }
