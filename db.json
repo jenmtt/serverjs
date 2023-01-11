@@ -13,7 +13,7 @@
         {"nome": "Jonathan", "cpf": "111.111.111-44", "id": 100, "telefone": "99999-9955"}
     ],
 
-    "serviços": [
+    "servicos": [
         {"nome": "Tatuagem", "tipo":"Modificação corporal ext.", "id":1010, "preçoMin": 100},
         {"nome": "Piercing", "tipo":"Modificação corporal trans.", "id":2020, "preçoMin": 80},
         {"nome": "Microdermal", "tipo":"Modificação corporal inter.", "id":3030, "preçoMin": 100},
